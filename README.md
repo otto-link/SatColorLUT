@@ -2,6 +2,8 @@
 A python script to generate color lookup table for heightmaps based on
 earth DEM and true color data.
 
+https://github.com/otto-link/SatColorLUT/assets/121820229/544d0843-1d24-4a14-9d28-15316a3bea6d
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0.
@@ -24,3 +26,12 @@ python3 apply_clut.py
 
 Visit https://worldview.earthdata.nasa.gov to retrieve DEM and true
 color data of the earth surface.
+
+## How it works
+
+Like that:
+
+<p align="center">
+  <img width="460" src="https://github.com/otto-link/SatColorLUT/assets/121820229/b1286481-4376-441a-948e-36184c0dcc1a">
+</p>
+
