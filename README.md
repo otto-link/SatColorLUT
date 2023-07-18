@@ -32,6 +32,6 @@ color data of the earth surface.
 Like that:
 
 <p align="center">
-  <img width="460" src="https://github.com/otto-link/SatColorLUT/assets/121820229/b1286481-4376-441a-948e-36184c0dcc1a">
+  <img width="460" src="data/visu_clut.png">
 </p>
 
