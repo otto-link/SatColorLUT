@@ -8,9 +8,9 @@ import tools.mymath
 if __name__ == '__main__':
     print('Generating CLUT...')
 
-    clut_res = 64
+    clut_res = 32
 
-    for cmap in ['amazon', 'china', 'desert', 'himalaya', 'sahara', 'snow', 'stone', 'swamp']:
+    for cmap in ['amazon', 'desert', 'himalaya', 'sahara', 'snow', 'stone', 'swamp']:
         print(cmap)
 
         # See https://worldview.earthdata.nasa.gov to get data
