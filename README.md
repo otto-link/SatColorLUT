@@ -2,7 +2,7 @@
 A python script to generate color lookup table for heightmaps based on
 earth DEM and true color data.
 
-https://github.com/otto-link/SatColorLUT/assets/121820229/544d0843-1d24-4a14-9d28-15316a3bea6d
+https://github.com/otto-link/SatColorLUT/assets/121820229/ef3f025a-f239-4a04-a4ae-632f6f2de0d4
 
 ## License
 
