@@ -1,3 +1,4 @@
+import glob
 import matplotlib.pyplot as plt
 import numpy as np
 import os
@@ -10,7 +11,10 @@ if __name__ == '__main__':
 
     clut_res = 32
 
-    for cmap in ['amazon', 'desert', 'himalaya', 'sahara', 'snow', 'stone', 'swamp']:
+    dir_list = glob.glob('data/*')
+    cmap_list = [os.path.basename(d) for d in dir_list if os.path.isdir(d)]
+    
+    for cmap in cmap_list:
         print(cmap)
 
         # See https://worldview.earthdata.nasa.gov to get data
@@ -24,7 +28,9 @@ if __name__ == '__main__':
 
         clut3 = tools.clut.generate_clut((z, dzx, dzy),
                                          fname_col=fname_col,
-                                         clut_shape=(clut_res, clut_res, clut_res))
+                                         clut_shape=(clut_res,
+                                                     clut_res,
+                                                     clut_res))
 
         np.save(cmap + "_3.npy", clut3)
     
